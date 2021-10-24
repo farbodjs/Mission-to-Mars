@@ -1,5 +1,6 @@
 # Import Splinter and BeautifulSoup
 from splinter import Browser
+import flask_pymongo
 from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
