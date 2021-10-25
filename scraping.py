@@ -7,7 +7,7 @@ import pandas as pd
 executable_path = {'executable_path': ChromeDriverManager().install()}
 browser = Browser('chrome', **executable_path, headless=False)
 
-def mars_news():
+def mars_news(browser):
 
    # Visit the mars nasa news site
    url = 'https://redplanetscience.com/'
